@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>EconVita</title>
+
+</head>
+<body>
+    
+    <section class="header">
+        <nav>
+            <a href="./index.html"><img style="background-color: whitesmoke; border-radius:4px;" src="./slike/logoecon.png" alt="EconVita-Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="/index.html">POČETNA</a></li>
+                    <li><a href="./about.html">O NAMA</a></li>
+                    <li><a href="./course.html">KURSEVI</a></li>
+                    <li><a href="/contact.html">KONTAKT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>EconVita</h1>
+            <p>Najvrednija stvar na svijetu je znanje.</p>
+            <a href="./about.html" class="hero-btn">Posjetite nas da saznate više</a>
+            <a href="https://discord.gg/cWJmKyckpp" class="hero-btn"> Pridružite se našoj Discord grupi!</a>
+        </div>
+
+    </section>
+
+    <!---->
+
+    <section class="cta">
+        <h1>Prijavite se za naše različite online kurseve <br>bilo gdje u svijetu</h1>
+        <a href="./contact.html" class="hero-btn">Contact Us</a>
+    </section>
+
+    <!--- Footer -->
+
+    <section class="footer">
+        <h2>O nama</h2>
+        <p>Sve što trebate znati i više. <br> Za sve dodatne informacije koje vam mogu zatrebati, ne oklijevajte da nas kontaktirate.</p>
+        <p>Copyright Davud Smailbegović & Elhan Halilović</p>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("nav-links");
+        function showMenu(){
+        navLinks.style.right = "0";
+        }
+        function hideMenu(){
+        navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+
+</body>
+</html>
