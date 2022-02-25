@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+
+}
+
+
+.navbar {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    background: rgba(0, 0, 0, 0.89);
+  }
+  
+  .navbar h1 {
+    cursor: pointer;
+    font-size: 26px;
+    transition: transform 0.5s;
+    text-transform: uppercase;
+    color: rgb(211, 15, 15);
+  }
+  
+  .navbar h1:hover {
+    color: #ff5252;
+  }
+  
+  .navbar ul {
+    list-style: none;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 40px;
+    transition: transform 0.5s;
+    font-size: 100%;
+  }
+  
+  .navbar ul li a:hover {
+    border-bottom: 1px solid#ff5252;
+    color: #ff5252;
+    padding-bottom: 5px;
+    font-weight: 700;
+  }
+
+  @media only screen and (max-width: 755px) {
+    .navbar {
+      flex-direction: column;
+      padding: 20px 20px;
+    }
+  
+    .navbar h1 {
+      margin-bottom: 15px;
+    }
+  
+    .navbar ul li a {
+      margin-left: 20px;
+      font-size: 15px;
+    }
+  
+    .page-content {
+        right: 0%;
+      padding: 0 20px;
+    }
+  
+    .page-content h1 {
+      font-size: 28px;
+    }
+  
+    .page-content h3 {
+      font-size: 16px;
+    }
+
+    .about-text p{
+        color: #adadad;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 2px;
+        text-align: justify;
+        line-height: 35px;
+        -webkit-columns: 50px 3;
+        -moz-columns: 50px 3;
+        columns: 250px 3;
+        -webkit-column-gap: 40px;
+        -moz-column-gap: 40px;
+        column-gap: 40px;
+    }
+    .about-text h2{
+        color: white;
+        font-size: 2px;
+       
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+  
+  }
+  
+  
+
+
+
+.about-text p{
+    color: #adadad;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 35px;
+    -webkit-columns: 250px 3;
+    -moz-columns: 250px 3;
+    columns: 250px 3;
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px;
+    column-gap: 40px;
+}
+
+
+#about{
+    background: rgb(10, 9, 9);
+}
+
+.ab{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #191919;
+}
+.ab img{
+	height: auto;
+	width: 550px;
+    box-shadow: rgba(136, 24, 24, 0.37) 3px 3px 4px 5px;
+    margin-bottom: 47%;
+    transition: 0.5s;
+}
+
+.about-text{
+	width: 550px;
+}
+.ab{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-text h2{
+	color: white;
+	font-size: 65px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.about-text span{
+    color: rgb(167, 3, 3);
+}
+.about-text h5{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.about-text p{
+	color: rgba(255, 237, 204, 0.8);
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+
+.parametar{
+    color: white;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    right: 85%;
+    top: 820px;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.parametar .pod{
+    align-items:center;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 20px;
+    border: solid rgba(165, 16, 16, 0.671) 2px;
+    box-shadow: rgba(107, 2, 2, 0.705) 2px 2px 3px 5px;
+    margin-left: 40px;
+}
+
+.parametar .pod:hover{
+    background-image: linear-gradient(rgba(11, 13, 26, 0.849),rgba(4, 9, 32, 0.568)),url('./assets/Khabib-Nurmagomedov.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
