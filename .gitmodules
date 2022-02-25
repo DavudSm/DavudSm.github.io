@@ -1,0 +1,3 @@
+[submodule "Kurs"]
+	path = Kurs
+	url = https://github.com/ImposTekno/ImposTekno.github.io.git
